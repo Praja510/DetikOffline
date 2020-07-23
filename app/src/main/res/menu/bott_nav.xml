@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemHome"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/itemLayanan"
+        android:title="Layanan"
+        android:icon="@drawable/tag"/>
+
+    <item
+        android:id="@+id/itemKategori"
+        android:title="Kategori"
+        android:icon="@drawable/ic_round_view_list_24"/>
+
+    <item
+        android:id="@+id/itemVideo"
+        android:title="Video"
+        android:icon="@drawable/play_button"/>
+
+
+
+
+</menu>
