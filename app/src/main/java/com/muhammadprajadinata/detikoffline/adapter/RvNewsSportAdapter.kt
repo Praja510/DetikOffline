@@ -34,7 +34,6 @@ class RvNewsSportAdapter(val context: Context, private val listNews: List<NewsSp
             context.startActivity(intentDetail)
         }
     }
-
 }
 
 class NewsSportViewHolder (itemView: View): RecyclerView.ViewHolder(itemView) {

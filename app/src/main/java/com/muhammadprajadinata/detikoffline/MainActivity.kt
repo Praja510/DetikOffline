@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         val frag = supportFragmentManager.beginTransaction()
-        frag.replace(R.id.container, selectedFragment)
+        frag.replace(R.id.fragContainer, selectedFragment)
         frag.commit()
 
         true

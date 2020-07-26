@@ -32,7 +32,7 @@ class NewsSportActivity : AppCompatActivity() {
             intentDetail.putExtra(DetailNews.judulDetailBerita, headlineNews?.title)
             intentDetail.putExtra(DetailNews.contentDetailBerita, headlineNews?.detail)
             intentDetail.putExtra(DetailNews.photoDetailBerita, headlineNews?.photo.toString())
-            startActivity(intent)
+            startActivity(intentDetail)
         }
 
         val linearManager = LinearLayoutManager(this)
