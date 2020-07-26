@@ -9,7 +9,7 @@
     <item
         android:id="@+id/itemLayanan"
         android:title="Layanan"
-        android:icon="@drawable/tag"/>
+        android:icon="@drawable/ic_outline_local_offer_24"/>
 
     <item
         android:id="@+id/itemKategori"
@@ -19,7 +19,7 @@
     <item
         android:id="@+id/itemVideo"
         android:title="Video"
-        android:icon="@drawable/play_button"/>
+        android:icon="@drawable/ic_baseline_play_circle_outline_24"/>
 
 
 
